@@ -1,6 +1,10 @@
 @import url("/src/styles/global.css");
+
+body {
+    font-family: var(--font);
+}
 header {
-    background-color: silver;
+    background-color: var(--withe--color-neutral-white);
     border: 1px solid black;
     width: 1440px;
     height: 84px;
