@@ -2,6 +2,15 @@
 
 body {
     font-family: var(--font);
+    background-color: var(--color-neutral-silver);
+}
+.logo {
+    background-color:beige;
+    display: inline;
+    padding: 15px;
+}
+.nav-header {
+
 }
 header {
     background-color: var(--withe--color-neutral-white);
@@ -20,10 +29,10 @@ ul {
 nav {
 
 }
-.login {
+.btn-login {
     color: var(--color-primary);
 }
-.btnSingup {
+.btn-Singup {
     background-color: var(--color-primary);;
     padding: 8px 15px;
     color: white;
