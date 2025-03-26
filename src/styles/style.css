@@ -1,59 +1,113 @@
-@import url("/src/styles/global.css");
+@import url('./global.css');
 
-.logo {
+/* ------------ HEADER ------------ */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+    border-bottom: 1px solid gray;
+}
+
+.logo{
     padding: 30px 0px;
 }
-header {
-    display: flex;
-    justify-content: space-around; /* alinhamento horizontal*/
-    align-items: center; /* alinhamento vertical*/
 
-    background-color: var(--color-neutral-silver);
-    /*
-    border: 1px solid black;
-    width: 1440px;
-    height: 84px;
-    */
-}
-.nav-header ul {
+.nav-header ul{
     display: flex;
     list-style: none;
     gap: 50px;
 }
-.nav-header ul a 
-{
+
+.nav-header ul a{
     text-decoration: none;
     color: #18191F;
 }
 
-
-.btn-login {
-    color: var(--color-primary);
-    background-color: transparent; /* Isso serve para botão */
-    text-decoration: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-.btn-Singup {
-    background-color: var(--color-primary);
-    color: var(--color-neutral-white);
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    cursor: pointer;
-}
-.btn-header {
-    gap: 14px;
-    padding:  22px 0px;
-}
-.active {
+.active{
     font-weight: bold;
 }
 
-.btn-primary {
-    background-color: var(--color-primary);
+.btn-login{
+    color: var(--color-primary);
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-SignUp{
     color: var(--color-neutral-white);
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-header{
+    gap: 14px;
+    padding: 22px 0px;
+}
+main {
+    display: flex;
+    justify-content: center; /* Horizontal alinhado no centro */
+    align-items: center; /* Vertical alinhado ao centro */
+
+    gap: 104px;
+    padding: 96px 0px;
+    background-color: var(--color-neutral-silver);
+}
+h1 {
+    font-size: 64px;
+    color: var(--color-neutral-d_grey);
+    font-weight: 600; /* aqui não vai "px" */
+}
+h1 span {
+    color: var(--color-primary);
+}
+.content-lessons {
+    width: 657px;
+}
+
+.content-lessons p {
+    margin-top: 16px;
+}
+    
+.btn-primary {
+    color: var(--color-neutral-white);
+    background-color: var(--color-primary);
     padding: 14px 32px;
     border-radius: 4px;
+    margin-top: 32px;
     cursor: pointer;
+}
+.our-clients {
+    text-align: center;
+}
+.our-clients p {
+    margin-top: 8px;
+}
+.logo-clients {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px ;
+    background-color: darkkhaki;
+    margin-top: 16px;
+}
+.manager-system {
+    margin-top: 49px;
+    text-align: center;
+}
+.manager-system h2 {
+    width: 542px;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+}
+.cards-container article {
+    width: 299px;
+    height: 260px;
+
 }
