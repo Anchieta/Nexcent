@@ -96,18 +96,96 @@ h1 span {
     margin-top: 16px;
 }
 .manager-system {
-    margin-top: 49px;
+    margin-top: 40px;
     text-align: center;
 }
 .manager-system h2 {
     width: 542px;
+    margin: 0 auto;
+}
+#manager-system-subtitle {
+    margin-top: 8px;
 }
 .cards-container {
     display: flex;
     justify-content: center;
+    margin-top: 16px;
+    gap: 127.5px;
 }
 .cards-container article {
     width: 299px;
     height: 260px;
+    box-shadow: 10px 10px 4px rgb(171, 190, 209, 0.2);
+    padding: 24px 16px;
+    border: 1px solid lightgray;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.5s; /* Funciona em "parceria" com transform do :hover */
+}
+.cards-container article:hover {
+    /* box-shadow: 30px 30px 12px rgba(247, 42, 42, 0.5); */
+    box-shadow: 30px 30px 12px rgb(171, 190, 209, 0.2);
+    transform: translateY(-8px);
+}
+.cards-container article img {
+    width: 65px;
+    height: 56px;
+}
+.cards-container article h3 {
+    color: var(--color-neutral-d_grey);
+    font-size: 28px;
+    margin-bottom: 8px;
+    width: 231px;
+    margin: o auto;
+}
+.cards-container article p {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+/*
+.unseen-section {
+    display: flex;
+    justify-content: center;
+    padding: 52px;
+    height: 0.47;
+}
+.unseen-section div {
+    border: 1px solid red;
+}
+.unseen-section-text {
+    width: 634px;
+    height: 82.5;
+    align-items: center;
+}
+.unseen-section-text p {
+    color: var(--color-neutral-d_grey);
+}
+*/
+.pixelgrade {
+    display: flex;
+    justify-content: center;
 
+    margin-top: 42px;
+    gap: 49px;
+}
+/*
+.pixelgrade img {
+    border: 1px solid gray;
+}
+    */
+.pixelgrade-content {
+    width: 661px;
+    height: 82.5;
+    margin-top: 82.5px;
+}
+
+.pixelgrade-content h2 {
+    color: var(--color-neutral-d_grey);
+    font-size: 36px;
+}
+.pixelgrade-content p {
+    color: var(--color-neutral-d_grey);
+    font-size: 14px;
+    margin-top: 16px;
 }
