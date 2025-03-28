@@ -143,30 +143,13 @@ h1 span {
     font-size: 14px;
     line-height: 1.6;
 }
-/*
-.unseen-section {
-    display: flex;
-    justify-content: center;
-    padding: 52px;
-    height: 0.47;
-}
-.unseen-section div {
-    border: 1px solid red;
-}
-.unseen-section-text {
-    width: 634px;
-    height: 82.5;
-    align-items: center;
-}
-.unseen-section-text p {
-    color: var(--color-neutral-d_grey);
-}
-*/
+
 .pixelgrade {
     display: flex;
     justify-content: center;
 
     margin-top: 42px;
+    padding: 52px;
     gap: 49px;
 }
 /*
@@ -183,9 +166,40 @@ h1 span {
 .pixelgrade-content h2 {
     color: var(--color-neutral-d_grey);
     font-size: 36px;
+    width: 526px;
 }
 .pixelgrade-content p {
-    color: var(--color-neutral-d_grey);
+    /* color: var(--color-neutral-d_grey); -> Esta estilizado na global.css */
     font-size: 14px;
     margin-top: 16px;
+}
+/* Session helping */
+.helping {
+    display: flex;
+    justify-content: center;
+
+    margin: 48px 0px;
+    background-color: var(--color-neutral-silver);
+    align-items: center;
+    gap: 62px;
+} 
+.helping-content h2 {
+    width: 390px;
+    border: 1px solid red;  
+}
+.helping-content h2 span {
+    color: var(--color-primary);
+}
+.helping-content p {
+    margin-top: 8px;
+    color: #18191F;
+}
+.helping-statistic {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* 2 itens por coluna */
+    gap: 30px;
+    border: 1px solid red;  
+}
+.information-itens {
+    display: flex;
 }
