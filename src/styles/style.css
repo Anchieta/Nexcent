@@ -202,3 +202,23 @@ h1 span {
 .helping-itens{
     text-align: start;
 }
+
+/* mobile-login-pana */
+.mobile-login-pana {
+    display: flex;
+    justify-content: center;
+    gap: 49.47px;
+}
+.mobile-login-pana-content {
+    width: 601px;
+    align-items: center;
+    margin: 62.7px 144px 62.7px 0;
+}
+.mobile-login-pana-content h2 {
+    color: var(--color-neutral-d_grey);
+}
+.mobile-login-pana-content p {
+    color: var(--color-neutral-d_grey);
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
