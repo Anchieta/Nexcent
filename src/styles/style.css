@@ -222,3 +222,47 @@ h1 span {
     margin-top: 16px;
     margin-bottom: 32px;
 }
+
+/* Customer */
+.customers {
+    background-color: var(--color-neutral-silver);
+    display: flex;
+    gap: 78px;
+    justify-content: center;
+}
+.customers-content {
+    width: 748px;
+}
+.customers p {
+    line-height: 1.5;
+    margin-bottom: 16px;
+    color: var(--color-neutral-d_grey);
+}
+.customers-content p:nth-of-type(2) {
+    color: var(--color-neutral-L_grey);
+}
+.customers-content h2 {
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.customers-container {
+    display: flex;
+    gap: 32px;
+}
+.customers-items {
+    display: flex;
+    gap: 41px;
+}
+.customers-items img {
+    width: 40px; /*pq as imgs estavam distorcidas */
+}
+.customers-navigation a {
+    display: flex;
+
+    text-decoration: none;
+}
+.customers-navigation a p {
+    color: var(--color-primary);
+    margin: 0;
+}
