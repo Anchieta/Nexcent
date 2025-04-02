@@ -283,7 +283,7 @@ h1 span {
 .caring-marketing-container {
     display: flex;
     gap: 24px;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 16px;
 }
 /* .caring-cards div { */
